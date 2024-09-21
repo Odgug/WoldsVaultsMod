@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
 import xyz.iwolfking.woldsvaults.api.registry.CustomVaultObjectiveRegistry;
 import xyz.iwolfking.woldsvaults.api.registry.record.CustomVaultObjectiveEntry;
-import xyz.iwolfking.woldsvaults.models.crystal.UnhingedCrystalModel;
+import xyz.iwolfking.woldsvaults.custom.models.crystal.UnhingedCrystalModel;
 
 @Mixin(value = CrystalData.class, remap = false)
 public abstract class MixinCrystalData extends CrystalEntry implements ISerializable<CompoundTag, JsonObject>

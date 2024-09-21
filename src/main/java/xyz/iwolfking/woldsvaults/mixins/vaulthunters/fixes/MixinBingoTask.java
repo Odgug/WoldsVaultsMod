@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import xyz.iwolfking.woldsvaults.objectives.BallisticBingoObjective;
+import xyz.iwolfking.woldsvaults.custom.objectives.BallisticBingoObjective;
 
 import java.util.Iterator;
 

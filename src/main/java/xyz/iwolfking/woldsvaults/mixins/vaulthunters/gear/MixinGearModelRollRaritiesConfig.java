@@ -13,8 +13,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import xyz.iwolfking.woldsvaults.api.registry.CustomVaultGearRegistry;
 import xyz.iwolfking.woldsvaults.api.registry.record.CustomVaultGearEntry;
-import xyz.iwolfking.woldsvaults.items.gear.VaultBattleStaffItem;
-import xyz.iwolfking.woldsvaults.items.gear.VaultTridentItem;
+import xyz.iwolfking.woldsvaults.custom.items.gear.VaultBattleStaffItem;
+import xyz.iwolfking.woldsvaults.custom.items.gear.VaultTridentItem;
 
 import java.util.List;
 import java.util.Map;

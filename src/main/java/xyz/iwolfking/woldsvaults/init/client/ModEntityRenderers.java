@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import xyz.iwolfking.woldsvaults.init.ModEntities;
-import xyz.iwolfking.woldsvaults.objectives.data.bosses.client.WoldBossRenderer;
+import xyz.iwolfking.woldsvaults.custom.objectives.data.bosses.client.WoldBossRenderer;
 
 @OnlyIn(Dist.CLIENT)
 public class ModEntityRenderers {

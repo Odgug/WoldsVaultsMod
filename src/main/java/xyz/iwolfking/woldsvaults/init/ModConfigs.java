@@ -1,6 +1,11 @@
 package xyz.iwolfking.woldsvaults.init;
 
-import xyz.iwolfking.woldsvaults.config.*;
+import xyz.iwolfking.woldsvaults.config.VaultAmuletConfig;
+import xyz.iwolfking.woldsvaults.config.custom.boxes.*;
+import xyz.iwolfking.woldsvaults.config.custom.objectives.BallisticBingoConfig;
+import xyz.iwolfking.woldsvaults.config.custom.objectives.EnchantedElixirConfig;
+import xyz.iwolfking.woldsvaults.config.custom.objectives.HauntedBraziersConfig;
+import xyz.iwolfking.woldsvaults.config.custom.objectives.UnhingedScavengerConfig;
 
 public class ModConfigs {
     public static GemBoxConfig GEM_BOX;

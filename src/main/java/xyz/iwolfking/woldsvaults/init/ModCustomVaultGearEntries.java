@@ -3,10 +3,10 @@ package xyz.iwolfking.woldsvaults.init;
 import xyz.iwolfking.woldsvaults.api.registry.CustomVaultGearRegistry;
 import xyz.iwolfking.woldsvaults.api.registry.record.CustomVaultGearEntry;
 import xyz.iwolfking.woldsvaults.config.fake.CustomVaultGearModelRollRaritiesConfig;
-import xyz.iwolfking.woldsvaults.models.Battlestaffs;
-import xyz.iwolfking.woldsvaults.models.LootSacks;
-import xyz.iwolfking.woldsvaults.models.Plushies;
-import xyz.iwolfking.woldsvaults.models.Tridents;
+import xyz.iwolfking.woldsvaults.custom.models.gear.Battlestaffs;
+import xyz.iwolfking.woldsvaults.custom.models.gear.LootSacks;
+import xyz.iwolfking.woldsvaults.custom.models.gear.Plushies;
+import xyz.iwolfking.woldsvaults.custom.models.gear.Tridents;
 
 public class ModCustomVaultGearEntries {
     public static void registerGearEntries() {

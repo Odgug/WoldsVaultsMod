@@ -7,7 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
-import xyz.iwolfking.woldsvaults.modifiers.vault.*;
+import xyz.iwolfking.woldsvaults.custom.modifiers.vault.*;
 
 import java.util.Map;
 

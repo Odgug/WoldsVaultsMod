@@ -8,15 +8,15 @@ import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import xyz.iwolfking.woldsvaults.recipes.capstone.*;
-import xyz.iwolfking.woldsvaults.recipes.gear.GearPrefixAdderRecipe;
-import xyz.iwolfking.woldsvaults.recipes.gear.GearRepairAdderRecipe;
-import xyz.iwolfking.woldsvaults.recipes.gear.GearSuffixAdderRecipe;
-import xyz.iwolfking.woldsvaults.recipes.gear.MercyEnchantmentAdderRecipe;
-import xyz.iwolfking.woldsvaults.recipes.tool.OmegaToolCapacityAdderRecipe;
-import xyz.iwolfking.woldsvaults.recipes.tool.ToolCapacityAdderRecipe;
-import xyz.iwolfking.woldsvaults.recipes.tool.ToolModifierNullifierRecipe;
-import xyz.iwolfking.woldsvaults.recipes.tool.ToolStylishAdderRecipe;
+import xyz.iwolfking.woldsvaults.custom.recipes.capstone.*;
+import xyz.iwolfking.woldsvaults.custom.recipes.gear.GearPrefixAdderRecipe;
+import xyz.iwolfking.woldsvaults.custom.recipes.gear.GearRepairAdderRecipe;
+import xyz.iwolfking.woldsvaults.custom.recipes.gear.GearSuffixAdderRecipe;
+import xyz.iwolfking.woldsvaults.custom.recipes.gear.MercyEnchantmentAdderRecipe;
+import xyz.iwolfking.woldsvaults.custom.recipes.tool.OmegaToolCapacityAdderRecipe;
+import xyz.iwolfking.woldsvaults.custom.recipes.tool.ToolCapacityAdderRecipe;
+import xyz.iwolfking.woldsvaults.custom.recipes.tool.ToolModifierNullifierRecipe;
+import xyz.iwolfking.woldsvaults.custom.recipes.tool.ToolStylishAdderRecipe;
 
 import java.util.List;
 

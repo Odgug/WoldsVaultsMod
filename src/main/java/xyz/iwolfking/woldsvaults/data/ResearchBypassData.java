@@ -5,6 +5,7 @@ import net.minecraft.world.item.Item;
 import java.util.ArrayList;
 import java.util.List;
 
+@Deprecated
 public class ResearchBypassData {
     public static final List<Item> RESEARCH_BYPASS_ITEMS = new ArrayList<>();
 

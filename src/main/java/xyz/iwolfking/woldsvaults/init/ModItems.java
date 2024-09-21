@@ -12,14 +12,14 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.IForgeRegistry;
 import xyz.iwolfking.woldsvaults.WoldsVaults;
-import xyz.iwolfking.woldsvaults.items.*;
-import xyz.iwolfking.woldsvaults.items.fruits.HastyPomegranteItem;
-import xyz.iwolfking.woldsvaults.items.fruits.WisdomFruitItem;
-import xyz.iwolfking.woldsvaults.items.gear.VaultBattleStaffItem;
-import xyz.iwolfking.woldsvaults.items.gear.VaultLootSackItem;
-import xyz.iwolfking.woldsvaults.items.gear.VaultPlushieItem;
-import xyz.iwolfking.woldsvaults.items.gear.VaultTridentItem;
-import xyz.iwolfking.woldsvaults.items.rings.*;
+import xyz.iwolfking.woldsvaults.custom.items.*;
+import xyz.iwolfking.woldsvaults.custom.items.rings.*;
+import xyz.iwolfking.woldsvaults.custom.items.fruits.HastyPomegranteItem;
+import xyz.iwolfking.woldsvaults.custom.items.fruits.WisdomFruitItem;
+import xyz.iwolfking.woldsvaults.custom.items.gear.VaultBattleStaffItem;
+import xyz.iwolfking.woldsvaults.custom.items.gear.VaultLootSackItem;
+import xyz.iwolfking.woldsvaults.custom.items.gear.VaultPlushieItem;
+import xyz.iwolfking.woldsvaults.custom.items.gear.VaultTridentItem;
 
 import java.util.Random;
 

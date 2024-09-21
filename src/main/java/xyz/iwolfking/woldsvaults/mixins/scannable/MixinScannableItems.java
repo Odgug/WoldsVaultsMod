@@ -1,14 +1,20 @@
 package xyz.iwolfking.woldsvaults.mixins.scannable;
 
 import li.cil.scannable.common.item.Items;
+import me.fallenbreath.conditionalmixin.api.annotation.Condition;
+import me.fallenbreath.conditionalmixin.api.annotation.Restriction;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
-import xyz.iwolfking.woldsvaults.scannable.scanning.*;
-
+import xyz.iwolfking.woldsvaults.custom.scannable.scanning.*;
+@Restriction(
+        require = {
+                @Condition(type = Condition.Type.MOD, value = "scannable")
+        }
+)
 @Mixin(value = Items.class, remap = false)
 public class MixinScannableItems {
     @Shadow @Final private static DeferredRegister<Item> ITEMS;

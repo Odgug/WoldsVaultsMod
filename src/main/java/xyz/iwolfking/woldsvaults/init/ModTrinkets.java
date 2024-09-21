@@ -7,8 +7,8 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.registries.IForgeRegistry;
 import org.spongepowered.asm.mixin.Unique;
-import xyz.iwolfking.woldsvaults.effect.HeadlampTrinketEffect;
-import xyz.iwolfking.woldsvaults.effect.RunningShoesTrinketEffect;
+import xyz.iwolfking.woldsvaults.custom.effect.HeadlampTrinketEffect;
+import xyz.iwolfking.woldsvaults.custom.effect.RunningShoesTrinketEffect;
 
 public class ModTrinkets {
     @Unique

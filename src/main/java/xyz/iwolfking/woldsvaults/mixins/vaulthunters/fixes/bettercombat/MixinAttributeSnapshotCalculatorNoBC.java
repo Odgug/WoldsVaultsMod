@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import xyz.iwolfking.woldsvaults.compat.bettercombat.NoBetterCombatTester;
-import xyz.iwolfking.woldsvaults.items.gear.VaultBattleStaffItem;
+import xyz.iwolfking.woldsvaults.custom.items.gear.VaultBattleStaffItem;
 
 import java.util.function.Function;
 import java.util.function.Predicate;

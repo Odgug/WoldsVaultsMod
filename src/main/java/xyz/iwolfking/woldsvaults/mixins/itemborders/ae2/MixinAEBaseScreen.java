@@ -18,7 +18,8 @@ import org.spongepowered.asm.mixin.Shadow;
 
 @Restriction(
         require = {
-                @Condition(type = Condition.Type.MOD, value = "itemborders")
+                @Condition(type = Condition.Type.MOD, value = "itemborders"),
+                @Condition(type = Condition.Type.MOD, value = "ae2")
         }
 )
 @Mixin(value = AEBaseScreen.class)

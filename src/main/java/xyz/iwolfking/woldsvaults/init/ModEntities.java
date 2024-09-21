@@ -9,7 +9,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
-import xyz.iwolfking.woldsvaults.objectives.data.bosses.WoldBoss;
+import xyz.iwolfking.woldsvaults.custom.objectives.data.bosses.WoldBoss;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -5,9 +5,9 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraftforge.event.RegistryEvent;
 import xyz.iwolfking.woldsvaults.WoldsVaults;
-import xyz.iwolfking.woldsvaults.effect.mobeffects.GrowingPotionEffect;
-import xyz.iwolfking.woldsvaults.effect.mobeffects.ReavingPotionEffect;
-import xyz.iwolfking.woldsvaults.effect.mobeffects.ShrinkingPotionEffect;
+import xyz.iwolfking.woldsvaults.custom.effect.mobeffects.GrowingPotionEffect;
+import xyz.iwolfking.woldsvaults.custom.effect.mobeffects.ReavingPotionEffect;
+import xyz.iwolfking.woldsvaults.custom.effect.mobeffects.ShrinkingPotionEffect;
 import xyz.iwolfking.woldsvaults.lib.CustomScaleTypes;
 
 public class ModEffects {

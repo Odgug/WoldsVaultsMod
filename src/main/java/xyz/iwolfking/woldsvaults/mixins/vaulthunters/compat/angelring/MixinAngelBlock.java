@@ -6,7 +6,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import xyz.iwolfking.woldsvaults.items.rings.AngelRingItem;
+import xyz.iwolfking.woldsvaults.custom.items.rings.AngelRingItem;
 
 @Mixin(value = AngelBlock.class, remap = false)
 public abstract class MixinAngelBlock {

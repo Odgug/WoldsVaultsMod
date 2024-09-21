@@ -31,13 +31,13 @@ import xyz.iwolfking.woldsvaults.api.registry.CustomInscriptionModelRegistry;
 import xyz.iwolfking.woldsvaults.api.registry.CustomVaultGearRegistry;
 import xyz.iwolfking.woldsvaults.api.registry.CustomVaultObjectiveRegistry;
 import xyz.iwolfking.woldsvaults.config.forge.WoldsVaultsConfig;
-import xyz.iwolfking.woldsvaults.curios.ShardPouchCurio;
-import xyz.iwolfking.woldsvaults.events.LivingEntityEvents;
-import xyz.iwolfking.woldsvaults.events.RegisterCommandEventHandler;
+import xyz.iwolfking.woldsvaults.custom.curios.ShardPouchCurio;
+import xyz.iwolfking.woldsvaults.events.entity.LivingEntityEvents;
+import xyz.iwolfking.woldsvaults.events.registry.RegisterCommandEventHandler;
 import xyz.iwolfking.woldsvaults.init.ModResearchBypasses;
 import xyz.iwolfking.woldsvaults.lib.network.PacketHandler;
-import xyz.iwolfking.woldsvaults.objectives.data.BrutalBossesRegistry;
-import xyz.iwolfking.woldsvaults.objectives.data.EnchantedEventsRegistry;
+import xyz.iwolfking.woldsvaults.custom.objectives.data.BrutalBossesRegistry;
+import xyz.iwolfking.woldsvaults.custom.objectives.data.EnchantedEventsRegistry;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("woldsvaults")

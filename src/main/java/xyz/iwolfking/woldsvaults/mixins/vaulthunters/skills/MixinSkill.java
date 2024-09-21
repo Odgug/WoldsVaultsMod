@@ -6,7 +6,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import xyz.iwolfking.woldsvaults.expertises.CraftsmanExpertise;
+import xyz.iwolfking.woldsvaults.custom.expertises.CraftsmanExpertise;
 
 @Mixin(targets = "iskallia/vault/skill/base/Skill$Adapter", remap = false)
 public abstract class MixinSkill extends TypeSupplierAdapter<Skill> {

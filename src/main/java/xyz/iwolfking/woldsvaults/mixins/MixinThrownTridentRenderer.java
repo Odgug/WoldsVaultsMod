@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import xyz.iwolfking.woldsvaults.items.gear.VaultTridentItem;
+import xyz.iwolfking.woldsvaults.custom.items.gear.VaultTridentItem;
 
 @Mixin(ThrownTridentRenderer.class)
 public abstract class MixinThrownTridentRenderer extends EntityRenderer<ThrownTrident> {

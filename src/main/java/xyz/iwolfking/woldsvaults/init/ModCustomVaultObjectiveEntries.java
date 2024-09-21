@@ -2,8 +2,7 @@ package xyz.iwolfking.woldsvaults.init;
 
 import xyz.iwolfking.woldsvaults.api.registry.CustomVaultObjectiveRegistry;
 import xyz.iwolfking.woldsvaults.api.registry.record.CustomVaultObjectiveEntry;
-import xyz.iwolfking.woldsvaults.objectives.*;
-
+import xyz.iwolfking.woldsvaults.custom.objectives.*;
 public class ModCustomVaultObjectiveEntries {
     public static void registerCustomObjectives() {
         CustomVaultObjectiveRegistry.addEntry(new CustomVaultObjectiveEntry("brutal_bosses", "Brutal Bosses", BrutalBossesCrystalObjective.class, BrutalBossesCrystalObjective::new, BrutalBossesObjective.E_KEY));

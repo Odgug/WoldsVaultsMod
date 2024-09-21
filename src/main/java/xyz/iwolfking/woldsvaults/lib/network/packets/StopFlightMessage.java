@@ -2,7 +2,7 @@ package xyz.iwolfking.woldsvaults.lib.network.packets;
 
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraftforge.network.NetworkEvent;
-import xyz.iwolfking.woldsvaults.events.TickEvents;
+import xyz.iwolfking.woldsvaults.events.tick.FlightBanEvents;
 
 import java.util.UUID;
 import java.util.function.Supplier;
@@ -20,7 +20,7 @@ public record StopFlightMessage(UUID playerUUID) {
         var player = context.get().getSender();
         if (player != null) {
             System.out.println("Stopped flight with packet!");
-            TickEvents.stopFlying(player);
+            FlightBanEvents.stopFlying(player);
         }
         context.get().setPacketHandled(true);
     }

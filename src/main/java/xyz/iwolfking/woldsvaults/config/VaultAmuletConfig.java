@@ -12,9 +12,9 @@ import net.minecraft.network.chat.TextColor;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import net.minecraft.util.StringRepresentable;
-import xyz.iwolfking.woldsvaults.attributes.AttributeAmulet;
-import xyz.iwolfking.woldsvaults.items.gear.amulet.VaultAmuletEffect;
-import xyz.iwolfking.woldsvaults.items.gear.amulet.VaultAmuletEffectRegistry;
+import xyz.iwolfking.woldsvaults.deprecated.unfinished.AttributeAmulet;
+import xyz.iwolfking.woldsvaults.custom.items.gear.amulet.VaultAmuletEffect;
+import xyz.iwolfking.woldsvaults.custom.items.gear.amulet.VaultAmuletEffectRegistry;
 
 import javax.annotation.Nullable;
 import java.lang.reflect.Type;
@@ -24,6 +24,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.function.BiFunction;
 
+
+@Deprecated
 public class VaultAmuletConfig extends Config {
     @Expose
     public VaultAmuletConfig.CharmMap CHARMS = new VaultAmuletConfig.CharmMap();

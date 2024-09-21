@@ -13,8 +13,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.IForgeRegistry;
 import xyz.iwolfking.woldsvaults.WoldsVaults;
-import xyz.iwolfking.woldsvaults.items.gear.amulet.VaultAmuletEffect;
-import xyz.iwolfking.woldsvaults.items.gear.amulet.VaultAmuletEffectRegistry;
+import xyz.iwolfking.woldsvaults.custom.items.gear.amulet.VaultAmuletEffect;
+import xyz.iwolfking.woldsvaults.custom.items.gear.amulet.VaultAmuletEffectRegistry;
 
 import javax.annotation.Nullable;
 

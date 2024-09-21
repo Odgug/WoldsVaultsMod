@@ -5,7 +5,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.common.extensions.IForgeMenuType;
 import net.minecraftforge.event.RegistryEvent;
-import xyz.iwolfking.woldsvaults.blocks.containers.VaultSalvagerContainer;
+import xyz.iwolfking.woldsvaults.custom.blocks.functional.containers.VaultSalvagerContainer;
 
 public class ModContainers {
 
